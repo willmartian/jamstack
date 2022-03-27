@@ -1,0 +1,33 @@
+{
+  "name": "jamstack",
+  "description": "CLI to get you up and running with the Jamstack.",
+  "type": "module",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/willmartian/jamstack"
+  },
+  "main": "bin/index.js",
+  "bin": {
+    "jamstack": "bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jamstack",
+    "cli"
+  ],
+  "author": {
+    "email": "jamstack@willmartian.com",
+    "name": "willmartian",
+    "url": "https://willmartian.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^10.1.2"
+  }
+}
